@@ -9,12 +9,9 @@ var twitterKeys = new Twitter ({
   access_token_secret: 'mwLiC3v5kwEak6ITt7pRQCiQ3xCqwMvJt5kh3Wbr1RYfY'
 });
 
-var spotifyKeys = new Spotify ({
-	clientId: '1ffe44ec666849f9b956da357e9a7aac',
-	clientSecret: '55eeff27aaa74a13a276bb9d01d59a9d'
-});
+// var spotifyKeys = new Spotify ({
+// 	clientId: '1ffe44ec666849f9b956da357e9a7aac',
+// 	clientSecret: '55eeff27aaa74a13a276bb9d01d59a9d'
+// });
 
-module.exports = {
-	twitterKeys: twitterKeys,
-	spotifyKeys: spotifyKeys
-};
+module.exports = twitterKeys;
