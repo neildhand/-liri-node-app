@@ -153,21 +153,21 @@ else if(userInput === "do-what-it-says"){
 			myTweets();
 		}
 		//if it worked, this would be where the spotify api would go
-		else if (data[0] === "spotify-this-song"){
-			//first we would take in the song title to a variable
-			//ex: var songName = data[1];
-			//we would use this function to search the spotify api for that track, setting the query to songName
-			spotify.Search({ type: 'track', query: songName }, function(err, songData){
-			//if there are any errors, log the errors
-  			if (err) {
-    			return console.log('Error occurred: ' + err);
-  			}
-  			//otherwise log the song data 
-			console.log(songData); 
+		// else if (data[0] === "spotify-this-song"){
+		// 	//first we would take in the song title to a variable
+		// 	//ex: var songName = data[1];
+		// 	//we would use this function to search the spotify api for that track, setting the query to songName
+		// 	spotify.Search({ type: 'track', query: songName }, function((err, songData){
+		// 	//if there are any errors, log the errors
+  // 			if (err) {
+  //   			return console.log('Error occurred: ' + err);
+  // 			}
+  // 			//otherwise log the song data 
+		// 	console.log(songData); 
 			
 
 
-		}
+		
 	});
 }
 else{
