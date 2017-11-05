@@ -105,7 +105,7 @@ request(queryUrl, function(error, response, body) {
 		// * Plot of the movie.
 		console.log("Plot: " + JSON.parse(body).Plot);
 		// * Actors in the movie.
-		console.log("Actors: " + JSON.parse(body).Plot);
+		console.log("Actors: " + JSON.parse(body).Actors);
 	}
 });
 }
